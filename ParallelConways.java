@@ -2,6 +2,12 @@ import java.util.Arrays;
 import java.util.concurrent.Phaser;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * @author Joshua Chen
+ * Class: CS3700.01
+ * Date: Oct 10, 2018
+ */
+
 public class ParallelConways {
     public static void main(String[] args) throws InterruptedException {
         final int M = 15;

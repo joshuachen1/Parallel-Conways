@@ -1,5 +1,11 @@
 import java.util.concurrent.Phaser;
 
+/**
+ * @author Joshua Chen
+ * Class: CS3700.01
+ * Date: Oct 10, 2018
+ */
+
 public class CellThread implements Runnable {
     private Phaser ph0;
     private Phaser ph1;
